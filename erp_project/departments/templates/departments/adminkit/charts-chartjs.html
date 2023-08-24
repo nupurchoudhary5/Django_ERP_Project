@@ -18,6 +18,129 @@
 
 	<link href="css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+	<style>
+				/* Reset some default styles */
+		body, h1, h2, h3, h4, h5, h6, p, ul, li {
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* Basic styling */
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f8f9fa;
+		}
+		
+		.wrapper {
+			display: flex;
+			height: 100vh;
+		}
+		
+		/* Sidebar */
+		#sidebar {
+			width: 250px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			background-color: #343a40;
+			color: #fff;
+		}
+		
+		.sidebar-content {
+			padding: 20px;
+		}
+		
+		.sidebar-brand {
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: #fff;
+			text-decoration: none;
+		}
+		
+		.sidebar-nav {
+			margin-top: 30px;
+			list-style: none;
+		}
+		
+		.sidebar-item {
+			margin-bottom: 10px;
+		}
+		
+		.sidebar-link {
+			color: #adb5bd;
+			text-decoration: none;
+			display: block;
+		}
+		
+		.sidebar-link:hover {
+			color: #fff;
+		}
+		
+		/* Main content */
+		.main {
+			margin-left: 250px;
+			padding: 20px;
+		}
+		
+		.navbar {
+			background-color: #fff;
+			border-bottom: 1px solid #ddd;
+			padding: 10px 20px;
+		}
+		
+		.navbar-bg {
+			background-color: #f8f9fa;
+		}
+		
+		/* Cards */
+		.card {
+			border: none;
+			border-radius: 10px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		
+		.card-header {
+			padding: 15px;
+		}
+		
+		.card-title {
+			font-size: 1.25rem;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		
+		.card-subtitle {
+			font-size: 0.875rem;
+			color: #6c757d;
+		}
+		
+		.card-body {
+			padding: 15px;
+		}
+		
+		/* Footer */
+		.footer {
+			background-color: #fff;
+			border-top: 1px solid #ddd;
+			padding: 10px 20px;
+			margin-top: 20px;
+		}
+		
+		/* Chart containers */
+		.chart {
+			position: relative;
+			height: 300px;
+		}
+		
+		/* Misc */
+		.align-middle {
+			vertical-align: middle !important;
+		}
+  
+	</style>
+
 </head>
 
 <body>
